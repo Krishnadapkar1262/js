@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript</title>
+  <script>
+    var a = {
+            fname : 'Yahoo',
+            lname : 'Baba',
+            age : 25,
+            email: 'hello@yahoobaba.net',
+            favMovies: ['Dhoom', 'Sholay', 'Hum'],
+            salary : function(){
+                return 25000;
+            },
+            fullname : function(){
+                return this.fname + " " + this.lname;
+            }
+        }
+   
+        document.write(a.salary() + "<br>");
+        document.write(a.fullname() + "<br>");
+  </script>
+</head>
+<body>
+</body>
+</html>
